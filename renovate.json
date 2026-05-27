@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": ["static.yml"],
+      "matchStrings": ["depName=(?<depName>.*?)?\\s.*?_VERSION=\"(?<currentValue>.*?)\""],
+      "versioningTemplate": "docker",
+      "datasourceTemplate": "github-releases"
+    }
+  ]
+}
