@@ -1,2 +1,2 @@
-# urlc.yr32.net
+# uc.yr32.net
 
