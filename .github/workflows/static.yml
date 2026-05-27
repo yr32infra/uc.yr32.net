@@ -22,7 +22,7 @@ jobs:
     steps:
       - run: |
           # depName=yanorei32/url-compressor
-          URL_COMPRESSOR_VERSION="v0.1.0"
+          URL_COMPRESSOR_VERSION="v0.1.1"
           wget https://github.com/yanorei32/url-compressor/releases/download/$URL_COMPRESSOR_VERSION/static.tar.gz
           tar xf static.tar.gz
 
