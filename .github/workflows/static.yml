@@ -18,7 +18,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
 
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-26.04
     steps:
       - run: |
           # depName=yanorei32/url-compressor
